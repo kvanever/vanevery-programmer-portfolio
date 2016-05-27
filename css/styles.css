@@ -57,3 +57,20 @@ h2.employer {
   font-weight: bold;
 
 }
+
+
+@media only screen and (max-width: 769px) {
+  .img-responsive {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .header h3{
+    float: right;
+  }
+}
+
+.jumbotron h1 {
+  font-size: 4em;
+}
