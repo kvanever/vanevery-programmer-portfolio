@@ -15,7 +15,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <!-- <link href="css/jumbotron-narrow.css" rel="stylesheet"> -->
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
@@ -36,7 +36,7 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Work</a></li>
+            <li role="presentation"><a href="work.html">Work</a></li>
             <li role="presentation"><a href="#">About</a></li>
             <li role="presentation"><a href="#">Email Me</a></li>
           </ul>
@@ -45,17 +45,24 @@
       </div>
 
       <div class="jumbotron">
-        <h1>Hello.  I'm Kevin.</h1>
-        <p class="lead">I am a programming student focusing on web development using javascript and Microsoft stack technologies.</p>
-        <p>Find out more about:
-          <div class="btn-group btn-group-sm" role="group" aria-label="..." id="jumbotron-btn">
-            <button type="button" class="btn btn-default">my work</button>
-            <button type="button" class="btn btn-default">me</button>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-responsive img-rounded" src="img/kevin-vanevery.jpg" alt="Kevin VanEvery standing on a mountain" />
           </div>
-        </p>
+          <div class="col-md-6">
+            <h1>Hello.  I'm Kevin.</h1>
+            <p class="lead">I am a programming student focusing on web development using javascript and Microsoft stack technologies.</p>
+            <p>Find out more about:
+              <div class="btn-group btn-group-lg" role="group" aria-label="..." id="jumbotron-btn">
+                <button type="button" class="btn btn-default"><a href="work.html">my work</a></button>
+                <button type="button" class="btn btn-default">me</button>
+              </div>
+            </p>
+          </div>
+        </div>
       </div>
 
-      <div class="row marketing">
+      <div class="row">
         <div class="col-lg-6">
           <h4>Work</h4>
           <p>Prior to my new career as a web developer, I worked for seven years as a project manager and consultant for a web agency.  I have led all sorts of projects:</p>
