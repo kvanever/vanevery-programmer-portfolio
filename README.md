@@ -15,7 +15,7 @@ This website details my experience at Matrix and at Epicodus.  It includes links
 
 ## Known Bugs
 
-No known bugs`
+There are no case studies.  Each of the projects listed on the work.html page refers to an empty anchor tag on the "Read the Case Study" link and the associated thumbnail.  Creating child pages but nesting the files in a folder properly and having the navigation work dynamically proved to be more frustrating than helpful.
 
 ## Support and contact details
 
