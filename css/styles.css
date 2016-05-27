@@ -1,7 +1,38 @@
+body {
+  background-color: #eee;
+}
+
 .header {
   margin-top: 2em;
 }
 
 .glyphicon {
   margin: .5em;
+}
+
+.marketing-copy h4 {
+  font-style: italic;
+  font-size: 2.4em;
+}
+
+.header h3 {
+  font-size: 2em;
+}
+
+.jumbotron-icon-links span {
+  font-size: 3em;
+  text-align: center;
+}
+
+.marketing-copy li {
+  line-height: 2em;
+  list-style-type: none;
+}
+
+.footer {
+  margin-top: 2em;
+}
+
+em {
+  font-weight: bold;
 }
