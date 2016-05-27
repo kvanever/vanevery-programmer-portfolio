@@ -19,7 +19,7 @@ No known bugs`
 
 ## Support and contact details
 
-If you have any questions or concerns, please use this [contact form](http://kvanever.github.io/vanevery-programmer-portfolio)
+If you have any questions or concerns, please use this [contact form](http://kvanever.github.io/vanevery-programmer-portfolio/contact.html)
 
 ## Technologies Used
 
